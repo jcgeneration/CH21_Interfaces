@@ -1,10 +1,9 @@
 # Ejercicio Interfaces en Java
 
-## Se proporciona en el código un archivo llamado `testFiguras` que contiene un método `imprimirCalculo` que solicita una clase `Triangulo`, dicho método imprime el área y el perímetro del triángulo `t`.
+### Se proporciona en el código un archivo llamado `testFiguras` que contiene un método `imprimirCalculo` que solicita una clase `Triangulo`, dicho método imprime el área y el perímetro del triángulo `t`.
 
-## Se deben desarrollar las clases del resto de figuras geométricas 
-
-## Se debe desarrollar una interface que ayude a mostrar el área y perímetro del resto de las figuras (incluidas el tríangulo) desde el método `imprimirCalculo`:
+## Parte 1
+### Se deben desarrollar las clases del resto de figuras geométricas, al final de este README se anexa una imagen con la referencia de los cálculos de cada figura.
 
 1. [x] Triángulo 
 2. [ ] Cuadrado
@@ -13,7 +12,11 @@
 5. [ ] Romboide
 6. [ ] Trapecio
 
-> En la clase `testFiguras` solo se permite cambia el tipo de dato en el parámetro `t` de `imprimirCalculo`. También se pueden instanciar el resto de las figuras para probarlas desde el método main.
+## Parte 2
+### Se debe desarrollar una interface que ayude a mostrar el área y perímetro del resto de las figuras (incluidas el tríangulo) desde el método `imprimirCalculo`:
+
+
+> En la clase `testFiguras` solo se permite cambia el tipo de dato en el parámetro `t` de `imprimirCalculo`. También se deben instanciar el resto de las figuras para probarlas desde el método main.
 
 
 ![Figuras](https://raw.githubusercontent.com/jcgeneration/FigurasGeometricasInterface/main/area_perimetro_poligono.jpg)
